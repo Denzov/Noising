@@ -4,9 +4,9 @@
 
 int main(int argc, char* argv[]){
     UI ui;
-    if(ui.init()){
-        ui.setCodingFunction((Encoder)user_encoder, (Decoder)user_decoder);
-        ui.print();
+    if(ui.Init()){
+        ui.SetCodingFunction((Encoder)user_encoder, (Decoder)user_decoder);
+        ui.debug();
     }
     
 }

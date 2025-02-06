@@ -5,7 +5,7 @@
 
 int main() {
     std::string user_code_path = "UserUI/";
-    std::string program_name = "PROCESS_UI";
+    std::string program_name = "NOISE_PROCESS";
 
     system(("g++ " + user_code_path + "*.cpp -o " + program_name).c_str());
     if(std::filesystem::exists(program_name + ".exe"))
